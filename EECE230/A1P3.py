@@ -21,6 +21,6 @@ if a!=0:
     else:
                 print("The equation has no roots")
 else:
-    print("\"a\" 0can\'t be equal to \"0\"")
+    print("\"a\" can\'t be equal to \"0\"")
     
     
