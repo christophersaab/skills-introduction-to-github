@@ -9,7 +9,7 @@ Created on Mon Sep 14 14:44:08 2026
 n=int(input("Enter an integer n: "))
 if n>0:
     s=1
-    for i in range (1,n+1):
+    for i in range (2,n+1):
         s=s*i
     print("Factorial of n:",s)
 else:
