@@ -3,6 +3,10 @@ low=1
 high=n
 mid=(low+high)//2
 square=False
+if n==0:
+    print(n,"is a perfect square")
+elif n<0:
+    print(n,"Cannot be negative")
 while low<=high:
     if mid*mid==n:
         square=True

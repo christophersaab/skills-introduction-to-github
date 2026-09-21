@@ -10,5 +10,5 @@ for i in range (2,x+1):
         d=d+1
     if isprime:
             y=y+1
-print(y,x,y/x)
+print(y/x)
 

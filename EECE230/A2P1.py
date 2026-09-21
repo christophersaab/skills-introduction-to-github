@@ -7,13 +7,13 @@ Created on Mon Sep 14 14:44:08 2026
 """
 
 n=int(input("Enter an integer n: "))
-if n>0:
+if n==0:
+    print("Factorial of n:1")
+elif n<0:
+    print("Negative number!") 
+else:
     s=1
     for i in range (2,n+1):
         s=s*i
     print("Factorial of n:",s)
-else:
-    if n==0:
-        print("Factorial of n=1 ")
-    else:
-        print("Negative number!")
+

@@ -10,4 +10,4 @@ else:
         if x>maximum:
             maximum=x
       
-print(maximum,i)
+print("Maximum",maximum)
