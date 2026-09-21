@@ -7,14 +7,20 @@ Created on Sun Sep 20 17:15:01 2026
 """
 
 x=int(input("Enter x: "))
-d=2
-IsPrime=True
-while d*d<=x:
-    if x%d==0:
-        IsPrime=False
-        print("x is not a prime")
-        break
-    d=d+1
+if x==0:
+    print(x,"is not a prime")
+elif x<0:
+    print("Negative number!")
+else:
+    d=2
+    IsPrime=True
+  
+    while d*d<=x:
+        if x%d==0:
+            IsPrime=False
+            print("x is not a prime")
+            break
+        d=d+1
     if IsPrime:
         print("x is prime")
     
